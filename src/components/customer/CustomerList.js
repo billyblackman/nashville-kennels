@@ -9,7 +9,7 @@ export default () => {
     return (
         <div className="customers">
         {
-            customers.map(cus => <Customer key={cus.id} customers={cus} />)
+            customers.map(customer => <Customer key={customer.id} customer={customer} />)
         }
         </div>
     )

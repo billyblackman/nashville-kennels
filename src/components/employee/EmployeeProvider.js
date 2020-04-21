@@ -6,9 +6,9 @@ import React, { useState, useEffect } from "react"
 */
 export const EmployeeContext = React.createContext()
 
-/*
- This component establishes what data can be used.
- */
+    /*
+    This component establishes what data can be used.
+    */
 export const EmployeeProvider = (props) => {
     const [employees, setEmployees] = useState([])
 
@@ -38,7 +38,7 @@ export const EmployeeProvider = (props) => {
     }, [])
 
     useEffect(() => {
-        console.log("****  employee APPLICATION STATE CHANGED  ****")
+        console.log("****  EMPLOYEE APPLICATION STATE CHANGED  ****")
     }, [employees])
 
     return (

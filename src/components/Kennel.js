@@ -1,13 +1,13 @@
 import React from "react"
 import "./Kennel.css"
-import LocationList from "./location/LocationList"
 import { LocationProvider } from "./location/LocationProvider"
+import LocationList from "./location/LocationList"
 import { AnimalProvider } from "./animal/AnimalProvider"
 import AnimalList from "./animal/AnimalList"
 import { CustomerProvider } from "./customer/CustomerProvider"
 import CustomerList from "./customer/CustomerList"
 import { EmployeeProvider } from "./employee/EmployeeProvider"
-import Employee from "./employee/Employee"
+import EmployeeList from "./employee/EmployeeList"
 
 export default () => (
     <>
@@ -31,7 +31,7 @@ export default () => (
 
         <h2>Employees</h2>
         <EmployeeProvider>
-            <Employee />
+            <EmployeeList />
         </EmployeeProvider>
     </>
 )
