@@ -19,7 +19,7 @@ export default () => {
 
             return <Animal key={animal.id}
                     location={clinic}
-                    customer = {owner}
+                    owner = {owner}
                     animal={animal} />
             })
         }
