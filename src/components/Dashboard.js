@@ -35,7 +35,6 @@ export const Dashboard = () => {
                             <SearchResults searchTerms={searchTerms} />
                         </div>
 
-                            <AnimalList />  
                         </CustomerProvider>
                     </LocationProvider>
                 </AnimalProvider>
