@@ -21,7 +21,7 @@ export default props => {
                 locationId: locationId,
                 address: address.current.value
             })
-            .then(props.toggler)
+            .then(props.toggle)
         }
     }
 

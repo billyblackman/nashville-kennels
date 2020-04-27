@@ -13,3 +13,4 @@ export const SearchBar = ({ setTerms }) => (
         </div>
     </fieldset>
 )
+

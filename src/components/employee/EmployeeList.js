@@ -34,7 +34,7 @@ export default () => {
                     New Employee
                 </ModalHeader>
                 <ModalBody>
-                    <EmployeeForm toggler={toggle} />
+                    <EmployeeForm toggle={toggle} />
                 </ModalBody>
             </Modal>
         </>
