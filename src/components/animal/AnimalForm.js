@@ -23,7 +23,7 @@ export default props => {
         }
         console.log(newAnimalObj)
         // and save it to the API.
-        addAnimal(newAnimalObj).then(props.toggler)
+        addAnimal(newAnimalObj).then(props.toggle)
     }
 
     return (
